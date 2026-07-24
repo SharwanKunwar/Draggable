@@ -128,7 +128,7 @@ export function DraggableCardDemo() {
         className="absolute left-1/2 top-[28%] h-90 w-90 -translate-x-1/2 rounded-md rotate-[6deg] object-cover shadow-lg ring-4 ring-white/60 dark:ring-neutral-800"
       />
       <p
-        className="absolute top-[45%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-white text-center text-sm font-black  md:text-sm dark:text-neutral-800">
+        className="absolute md:top-[45%] top-[40%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-white text-center text-sm font-black  md:text-sm dark:text-neutral-800">
         Hey Beautiful Soul 💌
       </p>
       {items.map((item, index) => (
