@@ -129,7 +129,7 @@ export function DraggableCardDemo() {
       />
       <p
         className="absolute top-[45%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-white text-center text-sm font-black  md:text-sm dark:text-neutral-800">
-        Hey Beautiful Soul Hi 💌
+        Hey Beautiful Soul 💌
       </p>
       {items.map((item, index) => (
         <DraggableCardBody key={index} className={item.className}>
