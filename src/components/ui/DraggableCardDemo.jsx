@@ -123,7 +123,7 @@ export function DraggableCardDemo() {
     <DraggableCardContainer
       className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
       <img
-        src="/girl.jpg"
+        src="./img/girl.jpg"
         alt="Love message"
         className="absolute left-1/2 top-[28%] h-90 w-90 -translate-x-1/2 rounded-md rotate-[6deg] object-cover shadow-lg ring-4 ring-white/60 dark:ring-neutral-800"
       />
