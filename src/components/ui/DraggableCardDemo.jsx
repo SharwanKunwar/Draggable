@@ -63,18 +63,73 @@ export function DraggableCardDemo() {
       image: "/img/g12.jpg",
       className: "absolute top-80 right-[36%] rotate-[-8deg]",
     },
+    {
+      title: "",
+      image: "/img/g1.jpg",
+      className: "absolute top-96 left-[12%] rotate-[3deg]",
+    },
+    {
+      title: "",
+      image: "/img/g3.jpg",
+      className: "absolute top-[28rem] right-[20%] rotate-[-4deg]",
+    },
+    {
+      title: "",
+      image: "/img/g2.jpg",
+      className: "absolute top-[32rem] left-[32%] rotate-[7deg]",
+    },
+    {
+      title: "",
+      image: "/img/g4.jpg",
+      className: "absolute bottom-32 right-[14%] rotate-[-6deg]",
+    },
+    {
+      title: "",
+      image: "/img/g5.jpg",
+      className: "absolute bottom-40 left-[10%] rotate-[4deg]",
+    },
+    {
+      title: "",
+      image: "/img/g6.jpg",
+      className: "absolute bottom-20 left-[48%] rotate-[-5deg]",
+    },
+    {
+      title: "",
+      image: "/img/g7.jpg",
+      className: "absolute bottom-12 right-[8%] rotate-[6deg]",
+    },
+    {
+      title: "",
+      image: "/img/g8.jpg",
+      className: "absolute top-14 right-[4%] rotate-[2deg]",
+    },
+    {
+      title: "",
+      image: "/img/g9.jpg",
+      className: "absolute top-48 left-[2%] rotate-[-3deg]",
+    },
+    {
+      title: "",
+      image: "/img/g10.jpg",
+      className: "absolute top-[22rem] right-[3%] rotate-[8deg]",
+    },
+    {
+      title: "",
+      image: "/img/g11.jpg",
+      className: "absolute top-[26rem] left-[52%] rotate-[-2deg]",
+    },
   ];
   return (
     <DraggableCardContainer
       className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
       <img
-        src="/img/sha.jpg"
+        src="/girl.jpg"
         alt="Love message"
-        className="absolute left-1/2 top-[28%] h-36 w-36 -translate-x-1/2 rounded-full object-cover shadow-lg ring-4 ring-white/60 dark:ring-neutral-800"
+        className="absolute left-1/2 top-[28%] h-90 w-90 -translate-x-1/2 rounded-md rotate-[6deg] object-cover shadow-lg ring-4 ring-white/60 dark:ring-neutral-800"
       />
       <p
-        className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800">
-        Hey Beautiful Soul I love you 💌
+        className="absolute top-[45%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-white text-center text-sm font-black  md:text-sm dark:text-neutral-800">
+        Hey Beautiful Soul Hi 💌
       </p>
       {items.map((item, index) => (
         <DraggableCardBody key={index} className={item.className}>
