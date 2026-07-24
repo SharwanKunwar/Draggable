@@ -122,15 +122,21 @@ export function DraggableCardDemo() {
   return (
     <DraggableCardContainer
       className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
-      <img
+      {/* <img
         src="./img/girl.jpg"
         alt="Love message"
         className="absolute left-1/2 top-[28%] h-90 w-90 -translate-x-1/2 rounded-md rotate-[6deg] object-cover shadow-lg ring-4 ring-white/60 dark:ring-neutral-800"
-      />
+      /> */}
       <p
-        className="absolute md:top-[45%] top-[40%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-white text-center text-sm font-black  md:text-sm dark:text-neutral-800">
-        Hey Beautiful Soul 💌
-      </p>
+  className="absolute md:top-[45%] top-[40%] left-[43%] mx-auto max-w-sm -translate-y-3/4 text-gray-400 text-center md:text-xl font-medium text-sm dark:text-neutral-800"
+>
+  "I don't want to ask you out just because I think you're beautiful. 🌹
+  I want to ask you out because I want to know your stories, 📖
+  make you laugh, 😊
+  listen to the little things you say, 💕
+  and make you feel cared for. 🫶
+  So… will you go on a date with me? 🥰❤️"
+</p>
       {items.map((item, index) => (
         <DraggableCardBody key={index} className={item.className}>
           <img
